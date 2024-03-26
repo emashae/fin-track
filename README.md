@@ -1,6 +1,6 @@
-# Financial App
+# FinTrack
 
-This is a simple financial app built using React Native. It helps users manage their expenses and track financial transactions.
+This is a simple financial transactions tracking app built using React Native. It helps users manage their expenses and track financial transactions.
 
 ## Features
 
