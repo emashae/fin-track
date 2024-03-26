@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Groceries",
+    "amount": 50.25,
+    "place": "Toronto, ON",
+    "date": "March 25th, 2024"
+  },
+  {
+    "id": 2,
+    "name": "Restaurant",
+    "amount": 30.50,
+    "place": "Montreal, QC",
+    "date": "March 24th, 2024"
+  },
+  {
+    "id": 3,
+    "name": "Gas",
+    "amount": 40.00,
+    "place": "Vancouver, BC",
+    "date": "March 23rd, 2024"
+  },
+  {
+    "id": 4,
+    "name": "Clothing",
+    "amount": 80.75,
+    "place": "Calgary, AB",
+    "date": "March 22nd, 2024"
+  },
+  {
+    "id": 5,
+    "name": "Electronics",
+    "amount": 120.00,
+    "place": "Ottawa, ON",
+    "date": "March 21st, 2024"
+  },
+  {
+    "id": 6,
+    "name": "Utilities",
+    "amount": 90.30,
+    "place": "Edmonton, AB",
+    "date": "March 20th, 2024"
+  },
+  {
+    "id": 7,
+    "name": "Entertainment",
+    "amount": 25.00,
+    "place": "Halifax, NS",
+    "date": "March 19th, 2024"
+  },
+  {
+    "id": 8,
+    "name": "Books",
+    "amount": 15.50,
+    "place": "Saskatoon, SK",
+    "date": "March 18th, 2024"
+  },
+  {
+    "id": 9,
+    "name": "Fitness",
+    "amount": 60.00,
+    "place": "Victoria, BC",
+    "date": "March 17th, 2024"
+  },
+  {
+    "id": 10,
+    "name": "Transportation",
+    "amount": 35.75,
+    "place": "Regina, SK",
+    "date": "March 16th, 2024"
+  }
+]
