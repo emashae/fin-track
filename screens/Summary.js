@@ -20,6 +20,7 @@ const SummaryScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Summary</Text>
+      <View style={styles.divider} />
       <View style={styles.content}>
         <View style={styles.summaryItem}>
           <Text style={styles.label}>Transactions</Text>
@@ -42,6 +43,7 @@ const SummaryScreen = () => {
           <Text style={styles.value}>${lowestSpending.toFixed(2)}</Text>
         </View>
         <Text style={styles.transactionName}>{lowestSpendingTransaction.name}</Text>
+        <View style={styles.divider} />
       </View>
     </SafeAreaView>
   );
@@ -53,10 +55,10 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 20,
+    margin: 20,
   },
   content: {
     flex: 1,
@@ -71,7 +73,7 @@ const styles = StyleSheet.create({
   divider: {
     borderBottomWidth: 1,
     borderBottomColor: "#ccc",
-    marginBottom: 10,
+    marginBottom: 20,
     paddingTop: 10,
   },
   label: {
@@ -88,6 +90,7 @@ const styles = StyleSheet.create({
   },
   transactionName: {
     marginLeft: 10,
+    paddingBottom: 5
   },
 });
 
