@@ -19,7 +19,7 @@ This project uses Firebase for storing transaction data. Follow these steps to c
 
 2. Obtain your Firebase project's configuration object. This includes the API key, authDomain, databaseURL, projectId, storageBucket, messagingSenderId, and appId.
 
-3. Create a file named `config.js` in the root directory of your project. (follow config.example.js file)
+3. Rename the file named `config.example.js` in the root of the project to `config.js`. 
 
 4. Replace "YOUR_API_KEY", "YOUR_AUTH_DOMAIN", "YOUR_DATABASE_URL", "YOUR_PROJECT_ID", "YOUR_STORAGE_BUCKET", "YOUR_MESSAGING_SENDER_ID", and "YOUR_APP_ID" with your actual Firebase project's configuration values.
 
