@@ -19,16 +19,23 @@ const TransactionList = ({ navigation }) => {
     };
     
     fetchData();
-  }, []);  
+  }, []);
   
   const toggleModal = () => {
     setModalVisible(!modalVisible);
   };
 
-  const handleAddTransaction = () => {
-    addTransaction(newTransaction);
+  const handleAddTransaction = async () => {
+    await addTransaction(newTransaction);
+  
+    // Refetch the transactions from the database
+    const updatedTransactions = await fetchTransactions();
+  
+    // Update the transactionData state with the new data
+    setTransactionData(updatedTransactions);
+  
     setModalVisible(false);
-  };
+  };  
 
   const renderTransactionItem = ({ item }) => (
     <TouchableOpacity
