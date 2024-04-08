@@ -1,29 +1,10 @@
-import React, { useState, useEffect } from "react";
+// DEPRECATED - REPLACED DATA RETREIVAL FROM JSON WITH FIREBASE
+
+import React from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
-import { fetchTransactions } from "../helpers/db";
+import transactionData from "../transactionData.json";
 
 const SummaryScreen = () => {
-  const [transactionData, setTransactionData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await fetchTransactions();
-      setTransactionData(data);
-    };
-
-    fetchData();
-  }, []);
-
-  // Check if transactionData is empty or undefined
-  if (!transactionData || transactionData.length === 0) {
-      return (
-        <SafeAreaView style={styles.container}>
-          <Text style={styles.title}>Summary</Text>
-          <Text>No transactions found.</Text>
-        </SafeAreaView>
-      );
-  }
-
   //number of transactions
   const numOfTransactions = transactionData.length;
 
