@@ -10,6 +10,23 @@ This is a simple financial transactions tracking app built using React Native. I
 - Provides summary of user's financial data.
 - Simulates transaction data using static data.
 
+
+## Firebase Configuration
+
+This project uses Firebase for storing transaction data. Follow these steps to configure Firebase for the project:
+
+1. Create a Firebase project on the [Firebase Console](https://console.firebase.google.com/).
+
+2. Obtain your Firebase project's configuration object. This includes the API key, authDomain, databaseURL, projectId, storageBucket, messagingSenderId, and appId.
+
+3. Create a file named `config.js` in the root directory of your project. (follow config.example.js file)
+
+4. Replace "YOUR_API_KEY", "YOUR_AUTH_DOMAIN", "YOUR_DATABASE_URL", "YOUR_PROJECT_ID", "YOUR_STORAGE_BUCKET", "YOUR_MESSAGING_SENDER_ID", and "YOUR_APP_ID" with your actual Firebase project's configuration values.
+
+6. You may need to adjust Firebase rules and permissions according to your project requirements.
+
+7. Run your application to ensure Firebase integration is successful.
+
 ## Getting Started
 
 To get started with the project, follow these steps:
