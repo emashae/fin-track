@@ -8,8 +8,6 @@ This is a simple financial transactions tracking app built using React Native. I
 - Stack navigation for transaction details.
 - Displays a list of transactions with basic details.
 - Provides summary of user's financial data.
-- Simulates transaction data using static data.
-
 
 ## Firebase Configuration
 
